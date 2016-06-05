@@ -1,0 +1,40 @@
+#main-nav-image {
+	width: 100%;
+	height: auto;
+}
+
+.main-articles {
+	width: 580px;
+}
+
+.articles {
+	border: 1px solid #eee;
+	border-radius: 3px;
+	box-shadow: 0 0 11px -4px #ccc; 
+	margin: 4%;
+	padding: 6% 12%;
+	background: #fff;
+	text-align: center;
+}
+
+.articles p {
+	color: #555;
+	line-height: 2.2;
+}
+
+.articles .articles-headings a {
+	color: #555;
+	font-size: 30px;
+	-webkit-transition: all ease .250s;
+	-moz-transition: all ease .250s;
+	-o-transition: all ease .250s;
+	transition: all ease .250s;
+}
+
+.articles .articles-headings a:hover {
+	color: #4ea9e6;
+	-webkit-transition: all ease .250s;
+	-moz-transition: all ease .250s;
+	-o-transition: all ease .250s;
+	transition: all ease .250s;
+}

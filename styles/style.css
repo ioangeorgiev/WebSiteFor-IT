@@ -1,0 +1,132 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 95%;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main-header {
+	width: 100%;
+	text-align: center;
+}
+
+#main-header .header-headings a {
+	color: #4ea9e6;
+	font-size: 30px;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+
+#main-header .header-sup-text {
+	font-style: italic;
+	color: #888;
+}
+
+#all-content {
+	background: #fbfbfb;
+	overflow: hidden;
+}
+
+#main-content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#wrapper-menu {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+#wrapper-menu ul {
+	list-style-type: none;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-left: 27%; 
+}
+
+#wrapper-menu ul:before,
+#wrapper-menu ul:after {
+	content: "";
+	display: table;
+}
+
+#wrapper-menu ul:after {
+	clear: both;
+}
+
+#wrapper-menu ul li {
+	float: left;
+}
+
+#wrapper-menu li a {
+	color: #777;
+	text-decoration: none;
+	text-transform: uppercase;; 
+	vertical-align: baseline;
+	font-size: 13px;
+	font-weight: 500;
+	display: block;
+	padding: 16px 25px;
+	line-height: 25px;
+	-webkit-transition: all ease .150s;
+	-moz-transition: all ease .150s;
+	-o-transition: all ease .150s;
+	transition: all ease .150s;
+}
+
+#wrapper-menu li a:hover {
+	color: #4ea9e6;
+	-webkit-transition: all ease .150s;
+	-moz-transition: all ease .150s;
+	-o-transition: all ease .150s;
+	transition: all ease .150s;
+}
+
+#main-footer {
+	width: 100%;
+	height: auto;;
+	background: #555;
+	overflow: hidden;
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer p {
+	color: #fff;
+	padding: 10px 0;
+}
+
+.scroll-up i {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	color: #333;
+	font-size: 30px;
+	display: block;
+	padding: 8px 13px;
+	border-radius: 3px;
+	background: rgba(192,192,192,0.3);
+	-webkit-transition: all ease .150s;
+	-moz-transition: all ease .150s;
+	-o-transition: all ease .150s;
+	transition: all ease .150s;
+	display: none;
+}
+
+.scroll-up i:hover {
+	background: #4ea9e6;
+	color: #fff;
+	-webkit-transition: all ease .150s;
+	-moz-transition: all ease .150s;
+	-o-transition: all ease .150s;
+	transition: all ease .150s;
+}
